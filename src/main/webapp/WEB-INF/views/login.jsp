@@ -8,8 +8,8 @@
 <title>JSP Page!!</title>
 </head>
 <body>
-<form action="LoginServlet" method="post">
 <p><font color="red">${errormsg }</font></p>
+<form action="/spring-mvc/login" method="post">
 	Enter your name:<input type="text" name="name">
 	<input type="password" name="pwd">
 	<input type="submit" value="login">
